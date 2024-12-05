@@ -7,7 +7,7 @@
 #include <ctype.h>
 #include <sys/time.h>
 
-#define BLOCK_DIM_X 32
+#define BLOCK_DIM_X 32  //specify here the thread block size
 #define BLOCK_DIM_Y 16
 
 #ifdef _WIN32
